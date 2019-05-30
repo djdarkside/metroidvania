@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="2018.12.22" orientation="orthogonal" renderorder="right-down" width="80" height="44" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="34">
+ <tileset firstgid="1" source="metroid_like.tsx"/>
+ <layer id="9" name="Tile Layer 1" width="80" height="44">
+  <data encoding="base64" compression="zlib">
+   eJzt27EJADEMBEH15qrc/eMWfgNjmIHLxebaM7MtjX/0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9GtOu3X7iIet0a/Qr9Gv0a857W7/Pr2+Dx5UcTk=
+  </data>
+ </layer>
+ <objectgroup id="2" name="boarder">
+  <object id="30" x="1280" y="704">
+   <polygon points="0,0 0,-16 -1280,-16 -1280,0"/>
+  </object>
+  <object id="31" x="1280" y="608">
+   <polygon points="0,0 0,-592 -16,-592 -16,0"/>
+  </object>
+  <object id="32" x="1280" y="0">
+   <polygon points="0,0 -1280,0 -1280,16 0,16"/>
+  </object>
+  <object id="33" x="16" y="608">
+   <polygon points="0,0 -16,0 -16,-592 0,-592"/>
+  </object>
+ </objectgroup>
+</map>

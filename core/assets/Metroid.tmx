@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="2018.12.22" orientation="orthogonal" renderorder="right-down" width="80" height="44" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="21">
+ <tileset firstgid="1" source="Metroid.tsx"/>
+ <layer id="7" name="Tile Layer 1" width="80" height="44">
+  <data encoding="base64" compression="zlib">
+   eJzt00kKwkAQQNGCbJPDOES9Xpz1ng7HsNaSRTcKGngP/qI6lRAIiQAAAAAAAAAAAACAz82aiHm2yJZZ3/z6jYB3Y/+ps/KzWxtxzx7ZszXXzn0XscrW2aYz186H7JidsrO5eh6ybbbL9iPXL9nV3lf3hoL7Sp879f7he0x57wXDySsP
+  </data>
+ </layer>
+ <objectgroup id="2" name="boarder">
+  <object id="1" x="0" y="592">
+   <polygon points="0,0 640,0 640,16 0,16"/>
+  </object>
+  <object id="2" x="1280" y="592">
+   <polygon points="0,0 -640,0 -640,16 0,16"/>
+  </object>
+  <object id="6" x="96" y="544.067" width="79.3333" height="15.8667"/>
+  <object id="7" x="176" y="512" width="79.3333" height="15.8667"/>
+  <object id="8" x="272" y="480" width="79.3333" height="15.8667"/>
+  <object id="9" x="393" y="428" width="187" height="91"/>
+  <object id="12" x="604.5" y="349.5" width="187" height="91"/>
+  <object id="13" x="820.5" y="247.5" width="187" height="91"/>
+  <object id="14" x="522.333" y="293.067" width="79.3333" height="15.8667"/>
+  <object id="15" x="435.333" y="251.067" width="79.3333" height="15.8667"/>
+  <object id="16" x="348.333" y="207.067" width="79.3333" height="15.8667"/>
+  <object id="17" x="426.333" y="162.067" width="79.3333" height="22.8667"/>
+  <object id="18" x="526.333" y="120.067" width="79.3333" height="15.8667"/>
+  <object id="19" x="632.333" y="82.0666" width="79.3333" height="15.8667"/>
+  <object id="20" x="736.333" y="36.0666" width="286.333" height="15.8667"/>
+ </objectgroup>
+ <objectgroup id="6" name="trigger" visible="0">
+  <object id="5" x="624" y="272">
+   <polygon points="0,0 0,-112 16,-112 16,0"/>
+  </object>
+ </objectgroup>
+</map>
